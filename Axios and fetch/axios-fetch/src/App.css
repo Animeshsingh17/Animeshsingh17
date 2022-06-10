@@ -1,0 +1,38 @@
+body{
+  background-color: black;
+}
+h2{
+  color:aqua;
+  text-align: center;
+  font-size: 5rem;
+  margin:0 0 2em;
+  font-family: "stylish",sans-serif;  
+}
+.container{
+max-width: 1300px;
+margin: 0 auto;
+display: flex;
+justify-content: space-around;
+flex-wrap: wrap;
+}
+.box{
+  background-color: burlywood;
+  width:30%;
+  margin:10px;
+  padding: 20px;
+  box-shadow: 2px 2px 10px whitesmoke;
+}
+h5{
+color:whitesmoke;
+text-align: center;
+  font-family: "stylish",sans-serif;  
+}
+p{
+  color:palegreen;
+  font-size: 1rem;
+}
+img{
+  width:300px;
+  height: 300px;
+  object-fit: contain;
+}

@@ -1,0 +1,19 @@
+.feed{
+    flex:0.6;
+    margin:0 20px;   
+}
+.feed_inputContain{
+    background-color:white;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.feed_input{
+    border:1px solid lightgray;
+    border-radius: 60px;
+    display:flex;
+    padding:10px;
+    color:grey;
+    padding-left: 15px;
+}

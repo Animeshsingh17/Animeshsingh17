@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body class="container">
+    <h1>The JavaScript <i>this</i> Keyword</h1>
+    <p>In this example, <b>this</b> refers to the <b>person</b> object.</p>
+    <p>Because <b>fullName</b> is a method of the person object.</p>
+    <p id="demo"></p>
+    <h1 id="method"></h1>
+    <script>
+
+        //object literal , defalut para(:,)
+        //  var objectLiteral={
+            //  name:"object1",
+            //  age:1,
+            //  day:"30th may"}
+        //  console.log(objectLiteral);
+
+
+      //destructing  
+//        const vehicleOne = {
+//   brand: 'Ford',
+//   model: 'Mustang',
+//   type: 'car',
+//   year: 2021, 
+//   color: 'red',
+//   registration: {
+//     city: 'Houston',
+//     state: 'Texas',
+//     country: 'USA'
+//   }
+// }
+
+// function myVehicle({model, registration: { state },registration: {country}, year}) {
+//   const message = 'My ' + model + ' is registered in ' + state + '.' + country + " in year "+ year;
+//   return message;
+// }
+// document.getElementById("demo").innerHTML = myVehicle(vehicleOne);
+
+
+// Rest and spread opreator in JS
+// var a,b,c,d;
+// a=[1];
+// e=["we"];
+// b=["hello",3];
+// c=["bye",4];
+// d=[a,...b,...c,e] ; //rest 
+// f=["spread","welcomes",...d];//spread 
+
+// document.write(d);
+// document.write(f);
+
+
+
+//Await and Async 
+
+// function name1() {
+//     console.log("hii");
+// }
+// let  abc = async ()=>{
+//    let name = await name1();
+//     return name; 
+// }
+// abc();
+
+
+
+        //use of arrow function
+        //   const x = (x,y,z,v)=>{return x*y*z*v}
+        //   document.getElementById("method").innerHTML = x(1,2,3,4);
+
+        
+
+        // With template literal   
+        // console.log( `Using template literal  
+            //  multiline string
+                // hii i am doing it`);
+
+
+
+    //       var x = [1, 2, 3, 4, 5];
+    //   //  (use of .map(),.filter(),.reduce())
+    //     function ab() {
+    //         var ySquare = x.map(x => (x * x) + 2);
+    //         const zEven = x.filter(x => x % 2 === 0);
+    //         const sumAll = x.reduce((result, item) => result + item);
+    //         return sumAll + " " + ySquare + " " + zEven;
+    //     }
+    //     console.log(x);
+    //     document.getElementById("method").innerHTML = ab();
+
+
+
+        //(use of this keyword in JS)
+        // var person = {
+        //     firstName: "John",
+        //     lastName: "Doe",
+        //     id: 5566,
+        //     age: 50,
+        //     address: "93,vilay marg vill no.2",
+        //     fullName: function () {
+        //         abc = (person) => {
+        //             return person.address;
+        //         }
+        //         return this.firstName + " " + this.lastName + " and age is" + " " + this.age + " with id no." +
+        //             this.id + abc(this);
+        //     }
+        // };
+        // document.getElementById("demo").innerHTML = person.fullName();
+    </script>
+</body>
+
+</html>
