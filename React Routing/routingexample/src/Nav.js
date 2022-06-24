@@ -65,6 +65,17 @@ function Nav() {
             contact
           </NavLink>
         </li>
+        <li>
+          <NavLink
+            className="nav-bar-link"
+            to="/Home"
+            style={({ isActive }) => {
+              return { Color: isActive ? "skyblue" : "" };
+            }}
+          >
+            Home
+          </NavLink>
+        </li>
         <li></li>
       </ul>
     </nav>
